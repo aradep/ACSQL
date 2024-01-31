@@ -1,9 +1,9 @@
--- Smart AI Teleporter
+-- SmartAI Teleport NPC
 -- --------------------------------------------------------------------------------------- --
 SET
 @NPC_EntryID                := 500001,
 @NPC_DisplayID              := 29133,
-@NPC_Name                   := 'SmartAI Teleporter',
+@NPC_Name                   := 'Teleport NPC',
 @NPC_Title                  := "",
 @NPC_Icon                   := "Speak",
 @NPC_Greetings_NPCTextID    := 5001,
