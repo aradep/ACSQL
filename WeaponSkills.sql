@@ -2,7 +2,7 @@
 -- ---------------------------------------------------------------------------------- --
 
 -- Skills --
-REPLACE INTO playercreateinfo_skills (racemask, classmask, skill, rank, comment) VALUES
+REPLACE INTO playercreateinfo_skills (`racemask`, `classmask`, `skill`, `rank`, `comment`) VALUES
 (0, 431,  43,  0, '1h Sword Skill'),
 (0, 39,   55,  0, '2h Sword Skill'),
 (0, 1147, 54,  0, '1h Mace Skill'),
@@ -21,7 +21,7 @@ REPLACE INTO playercreateinfo_skills (racemask, classmask, skill, rank, comment)
 (0, 0,    95,  0, 'Defense Skill');
 
 -- Spells --
-REPLACE INTO playercreateinfo_spell_custom (classmask, Spell, Note) VALUES
+REPLACE INTO playercreateinfo_spell_custom (`classmask`, `Spell`, `Note`) VALUES
 (431,  201,   '1h Swords'),
 (39,   202,   '2h Swords'),
 (1147, 198,   '1h Maces'),
