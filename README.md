@@ -1,5 +1,5 @@
-**Quest.sql**: All-in-one quest template.
+**QuestTemplate.sql**: All-in-one quest template.
 
-**TeleportNPC.sql**: Teleporter NPC template using gossip menus and Smart AI.
+**VendorTemplate.sql**: Vendor template.
 
 **WeaponSkills.sql**: Classes start with all blizzlike weapon skills.
