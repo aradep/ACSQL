@@ -22,11 +22,11 @@ INSERT INTO npc_vendor
 (@Entry,    1,      0,              33447), -- Runic Healing Potion --
 (@Entry,    2,      0,              33448), -- Runic Mana Potion --
 (@Entry,    3,      0,              40087), -- Powerful Rejuvenation Potion --
-(@Entry,    4,      0,              40077),	-- Crazy Alchemist's Potion --
-(@Entry,    4,      0,              40081),	-- Potion of Nightmares --
-(@Entry,    4,      0,              40093),	-- Indestructible Potion --
-(@Entry,    4,      0,              40211),	-- Potion of Speed --
-(@Entry,    4,      0,              40212),	-- Potion of Wild Magic --
+(@Entry,    4,      0,              40077), -- Crazy Alchemist's Potion --
+(@Entry,    4,      0,              40081), -- Potion of Nightmares --
+(@Entry,    4,      0,              40093), -- Indestructible Potion --
+(@Entry,    4,      0,              40211), -- Potion of Speed --
+(@Entry,    4,      0,              40212), -- Potion of Wild Magic --
 (@Entry,    6,      0,               9172), -- Invisibility Potion --
 (@Entry,    6,      0,               2459), -- Swiftness Potion --
 (@Entry,    6,      0,               6372), -- Swim Speed Potion --
