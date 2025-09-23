@@ -100,12 +100,12 @@ DELETE FROM `gossip_menu_option` WHERE `menuID` BETWEEN @GossipMenu AND @GossipM
 INSERT INTO `gossip_menu_option` VALUES 
 -- Option 1
 (@GossipMenu,   1, @SelectIcon_Option1,     @Select_Option1,      @Broadcast+2,   1,1,    @GossipMenu+1,    0,0,0,NULL,0,0),
-(@GossipMenu+1, 1, @ConfirmIcon_Option1,    @Confirm_Option1,     @Broadcast+3,   1,1,                      0,0,0,0,NULL,0,0),
+(@GossipMenu+1, 1, @ConfirmIcon_Option1,    @Confirm_Option1,     @Broadcast+3,   1,1,    0,                0,0,0,NULL,0,0),
 (@GossipMenu+1, 2, 0,                       @Back,                @Broadcast+10,  1,1,    @GossipMenu,      0,0,0,NULL,0,0),
 -- Option 2
 (@GossipMenu,   2, @SelectIcon_Option2,     @Select_Option2,      @Broadcast+5,   1,1,    @GossipMenu+2,    0,0,0,NULL,0,0),
-(@GossipMenu+2, 1, @ConfirmIcon_Option2,    @Confirm_Option2,     @Broadcast+6,   1,1,                      0,0,0,0,NULL,0,0),
-(@GossipMenu+2, 2, 0,                       @Back,                @Broadcast+10,  1,1,    @GossipMenu,      ,0,0,NULL,0,0),
+(@GossipMenu+2, 1, @ConfirmIcon_Option2,    @Confirm_Option2,     @Broadcast+6,   1,1,    0,                0,0,0,NULL,0,0),
+(@GossipMenu+2, 2, 0,                       @Back,                @Broadcast+10,  1,1,    @GossipMenu,      0,0,0,NULL,0,0),
 -- Option 3
 (@GossipMenu,   3, @SelectIcon_Option3,     @Select_Option3,      @Broadcast+8,   1,1,    @GossipMenu+3,    0,0,0,NULL,0,0),
 (@GossipMenu+3, 1, @ConfirmIcon_Option3,    @Confirm_Option3,     @Broadcast+9,   1,1,    0,                0,0,0,NULL,0,0),
