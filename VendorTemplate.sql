@@ -9,6 +9,7 @@ SET
 @Icon       := "Buy", -- Directions, Gunner, vehicleCursor, Driver, Attack, Buy, Speak, Pickup, Interact, Trainer, Taxi, Repair, LootAll --
 @Rank       := 0, -- 0	Normal, 1:Elite, 2:Rare Elite, 3:Boss, 4:Rare --
 @Type       := 7, -- 0:None, 1:Beast, 2:Dragonkin, 3:Demon, 4:Elemental, 5:Giant, 6:Undead, 7:Humanoid, 8:Critter, 9:Mechanical --
+@Class      := 1, -- 1:Warrior, 2:Paladin, 4:Rogue, 8:Mage
 @Flags      := 128, -- 128: Normal vendor, 4224: Repair vendor
 @Level      := 80,
 @Faction    := 35;
@@ -38,8 +39,9 @@ INSERT INTO npc_vendor
 
 -- Creature --
 DELETE FROM creature_template WHERE Entry = @Entry;
-INSERT INTO creature_template (`Entry`, `Name`, `Subname`, `IconName`, `Minlevel`, `Maxlevel`, `Faction`, `Rank`, `NpcFlag`, `Type`) VALUES
-(@Entry, @Name, @Title, @Icon, @Level, @Level, @Faction, @Rank, @Flags, @Type);                    
+INSERT INTO creature_template (`Entry`, `Name`, `Subname`, `IconName`, `Minlevel`, `Maxlevel`, `Faction`, `Rank`, `NpcFlag`, `Type`, `unit_class`) VALUES
+(@Entry, @Name, @Title, @Icon, @Level, @Level, @Faction, @Rank, @Flags, @Type, @Class);                    
 DELETE FROM creature_template_model WHERE CreatureID = @Entry;
 INSERT INTO creature_template_model (`CreatureID`, `CreatureDisplayID`, `DisplayScale`, `Probability`) 
 VALUES (@Entry, @Model, @Scale, 1);
+
