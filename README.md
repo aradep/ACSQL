@@ -1,3 +1,5 @@
+**ClassTrainers.sql**: Individual class trainers that also sell glyphs and reagents.
+
 **QuestTemplate.sql**: All-in-one quest template.
 
 **VendorTemplate.sql**: Vendor NPC template.
